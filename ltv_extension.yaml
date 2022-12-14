@@ -8,3 +8,54 @@ info:
   x-logo:
     url: https://raw.githubusercontent.com/UANATACA/OTP-REPO/main/img/LTV_Extension_En.png
     altText: LTV extension logo
+
+paths: 
+  /addltv:
+    post: 
+      summary: EXTEND
+      description: Add revocation information to the signature
+      operationId: add-ltv
+      requestBody: 
+        content: 
+          multipart/form-data:
+            schema: 
+              type: object
+              properties: 
+                document:
+                  type: binary
+                  description: Document to extend its signatures
+                tsa_url:
+                  type: string
+                  description: Timestamping url
+                billing_username:
+                  type: string
+                  description: Client billing username
+                billing_password:
+                  type: string
+                  description: Client billing password
+      responses: 
+        200:
+          description: Succesful Response
+          content:
+            application/pdf:
+              schema: 
+                type: string
+              example: 
+                " %PDF-1.7\n
+                  %����\n
+                  1 0 obj\n
+                  <</Type/Catalog/Pages 2 0 R/Lang(es-ES) /StructTreeRoot 10 0 R/MarkInfo<</Marked true>>/Metadata 26 0 R/ViewerPreferences 27 0 R>>\n
+                  endobj\n\n
+
+                  2 0 obj\n
+                  <</Type/Pages/Count 1/Kids[ 3 0 R] >>\n
+                  endobj\n\n
+
+                  3 0 obj\n
+                  <</Type/Page/Parent 2 0 R/Resources<</Font<</F1 5 0 R>>/ExtGState<</GS7 7 0 R/GS8 8 0 R>>/ProcSet[/PDF/Text/ImageB/ImageC/ImageI] >>/MediaBox[ 0 0 595.32 841.92] /Contents 4 0 R/Group<</Type/Group/S/Transparency/CS/DeviceRGB>>/Tabs/S/StructParents 0>>\n
+                  endobj\n
+                  (...)\n
+                "
+         
+                
+      
