@@ -6,7 +6,7 @@ info:
     $ref: ./ltv_extension_gui.md
   version: v1
   x-logo:
-    url: https://raw.githubusercontent.com/UANATACA/OTP-REPO/main/img/LTV_Extension_En.png
+    url: https://raw.githubusercontent.com/UANATACA/LTV-REPO/main/img/LTV_Extension_En.png
     altText: LTV extension logo
 
 paths: 
@@ -39,7 +39,7 @@ paths:
           content:
             application/pdf:
               schema: 
-                type: string
+                type: binary
               example: 
                 " %PDF-1.7\n
                   %����\n
