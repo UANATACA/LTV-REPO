@@ -11,6 +11,8 @@ An HTTP RESTful API is exposed directly from Uanataca Trusted Service Center by 
 For the execution of signature requests, all the data has to be sent along the credentials of the Billing account which will be used to authenticate the user. All the operations are performed in our side and the result will be a document with its signatures extended by Uanataca which is a Qualified Trusted Service Provider.
 <br>
 LTV Extension takes the signature in your document...
+<br>
+<img src="https://raw.githubusercontent.com/UANATACA/LTV-REPO/main/img/graf_LTV.png">
 </div>
 
 # Configuration
