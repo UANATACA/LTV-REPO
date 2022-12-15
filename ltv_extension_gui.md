@@ -111,9 +111,8 @@ Service logs are not stored locally, to consult them execute one of the followin
 
 # Postman Collection
 
-A postman collection is available as a support for a quick start.
-<a href="https://cdn.bit4id.com/es/uanataca/public/otp/Uanataca_OTP_Postman.zip">
-    <img src="https://raw.githubusercontent.com/UANATACA/OTP-REPO/main/img/postman.svg" alt="postman_logo" width="50" height="50" style="display:block;">
-</a>
+A postman collection is available as a support for a quick start.<br>
+
+<a href="https://cdn.bit4id.com/es/uanataca/public/signbox/Uanataca_SignBox_Postman.zip"> LTV Extension collection download</a>
 
 <div id="APIReference" style="padding-top: 60px;"><h1>API Reference</h1></div>
