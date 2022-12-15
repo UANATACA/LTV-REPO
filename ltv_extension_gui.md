@@ -4,7 +4,7 @@
 LTV Extension is a solution that provides LTV addition and re-sealing. LTV Extension API is the way to preserve your documents guaranteeing performance and legal security of your electronically signed documents.
 
 A turnkey system that can be easily integrated with any business application without altering the user experience through a high-level web API based on the HTTP RESTful paradigm.
-<br>
+</br>
 
 </div>
 
@@ -12,12 +12,11 @@ A turnkey system that can be easily integrated with any business application wit
 
 <div style="text-align: justify">
 An API is given with a module called LTV Optimizer, a server system that exposes our LTV Extension HTTP RESTful API through which business applications are able to process their electronic signatures extensions and re-sealings.
-<br>
+</br>
 The documents to be extended are processed in the customer business layer and are not send to Uanataca Services since a hash of the document is sent, created from a hash algorithm.
-<br>
+</br>
 For the execution of signature requests, all the data has to be sent along the credentials of the Billing account which will be used to authenticate the user. All the  computationally expensive workload operations are performed by our side and the result will be a document with its signatures extended by Uanataca which is a Qualified Trusted Service Provider.
-<br>
-<br>
+</br>
 <img src="https://raw.githubusercontent.com/UANATACA/LTV-REPO/main/img/graf_LTV.png">
 </div>
 
