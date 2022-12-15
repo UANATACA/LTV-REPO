@@ -8,9 +8,11 @@ info:
   x-logo:
     url: https://raw.githubusercontent.com/UANATACA/LTV-REPO/main/img/LTV_Extension_En.png
     altText: LTV extension logo
-tags: 
-  - name: Addition
-  - name: Extension
+x-tagGroups: 
+  - name: API Reference
+    tags: 
+      - name: Addition
+      - name: Extension
 
 paths: 
   /addltv:

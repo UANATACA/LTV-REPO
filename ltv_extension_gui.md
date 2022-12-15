@@ -107,7 +107,7 @@ Service logs are not stored locally, to consult them execute one of the followin
     docker logs <container_id>
 <br>
 
-    docker logs <container_id> > logs.txt           //For file output
+    docker logs <container_id> > logs.txt           #For file output
 
 # Postman Collection
 
