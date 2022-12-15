@@ -115,4 +115,4 @@ A postman collection is available as a support for a quick start.<br>
 
 <a href="https://cdn.bit4id.com/es/uanataca/public/signbox/Uanataca_SignBox_Postman.zip"> LTV Extension collection download</a>
 
-<div id="APIReference" style="padding-top: 60px;color: #585856;"><h1>API Reference</h1></div>
+<div id="APIReference" style="padding-top: 60px;"><h1>API Reference</h1></div>
