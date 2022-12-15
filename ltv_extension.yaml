@@ -11,8 +11,8 @@ info:
 x-tagGroups: 
   - name: API Reference
     tags: 
-      - name: Addition
-      - name: Extension
+      - Addition
+      - Extension
 tags: 
   - name: Addition
   - name: Extension 
