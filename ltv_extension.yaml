@@ -13,7 +13,9 @@ x-tagGroups:
     tags: 
       - name: Addition
       - name: Extension
-
+tags: 
+  - name: Addition
+  - name: Extension 
 paths: 
   /addltv:
     post: 
