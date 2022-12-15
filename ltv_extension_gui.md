@@ -18,6 +18,8 @@ For the execution of signature requests, all the data has to be sent along the c
 <br></br>
 
 <img src="https://raw.githubusercontent.com/UANATACA/LTV-REPO/main/img/graf_LTV.png">
+
+
 # Configuration
 
 This configuration requires a server with Linux distribution.
